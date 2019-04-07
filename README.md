@@ -2,7 +2,16 @@
 
 > a Exercice Vue.js 
 
+## Requirements
+
+1) Vue.js https://vuejs.org/
+2) Node.js https://nodejs.org/en/
+3) npm 
+
+
+
 ##PORT
+
 Server Side (Node) : 4000
 Site : 8080
 
@@ -17,7 +26,7 @@ Site : 8080
 # Got to api folder
 cd api
 
-# Install all dependancy 
+# Install dependencies
 npm install
 
 # Start the server
