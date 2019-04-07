@@ -1,0 +1,56 @@
+[
+    {
+        "firstname": "Thierry",
+        "lastname": "Tran",
+        "age": "28",
+        "country": "FRANCE",
+        "occupation": "freelance",
+        "status": "searching for job",
+        "comment": ""
+    },
+    {
+        "firstname": "Tetsuo",
+        "lastname": "Akira",
+        "age": "21",
+        "country": "JAPAN",
+        "occupation": "Front-end developer",
+        "status": "On job",
+        "comment": ""
+    },
+    {
+        "firstname": "Tetsuya",
+        "lastname": "Nomura",
+        "age": "36",
+        "country": "JAPAN",
+        "occupation": "Designer",
+        "status": "On job",
+        "comment": ""
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "age": "32",
+        "country": "USA",
+        "occupation": "No job",
+        "status": "searching for job",
+        "comment": ""
+    },
+    {
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "age": "21",
+        "country": "FRANCE",
+        "occupation": "Student",
+        "status": "Searching for Internship",
+        "comment": ""
+    },
+    {
+        "firstname": "John",
+        "lastname": "Henry",
+        "age": "25",
+        "country": "ENGLAND",
+        "occupation": "freelance",
+        "status": "searching for job",
+        "comment": ""
+    }
+]
