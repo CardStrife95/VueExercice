@@ -43,7 +43,7 @@
                             <td>{{data.occupation}}</td>
                             <td>{{data.status}}</td>
                             <td>{{data.comment}}</td>
-                            <td><b-link :to="{ name: 'Applicant', params:{id:idx}}">View</b-link></td>
+                            <td colspan="2"><router-link id="view_btn" :to="{ name: 'Applicant', params:{id:idx}}" class="btn btn-primary">View</router-link></td>
                         </tr>
                     </tbody>
                 </table>
@@ -79,5 +79,7 @@ export default {
 </script>
 
 <style scoped>
-
+ #view_btn{
+    margin: 0 auto;
+ }
 </style>
