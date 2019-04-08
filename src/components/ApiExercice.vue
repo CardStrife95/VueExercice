@@ -30,11 +30,12 @@
                             <th>Occupation </th>
                             <th>Status</th>
                             <th>Comment</th>
+                            <th colspan="2"></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="(data,id) in datas" :key="id">
-                            <td>{{id+1}}</td>
+                        <tr v-for="(data,idx) in datas" :key="idx">
+                            <td>{{idx+1}}</td>
                             <td>{{data.firstname}}</td>
                             <td>{{data.lastname}}</td>
                             <td>{{data.age}}</td>
@@ -42,6 +43,7 @@
                             <td>{{data.occupation}}</td>
                             <td>{{data.status}}</td>
                             <td>{{data.comment}}</td>
+                            <td><b-link :to="{ name: 'Applicant', params:{id:idx}}">View</b-link></td>
                         </tr>
                     </tbody>
                 </table>
