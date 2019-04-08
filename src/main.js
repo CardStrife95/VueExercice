@@ -8,6 +8,51 @@ import router from './router'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import './styles/quasar.styl'
+import lang from 'quasar-framework/i18n/eng'
+import 'quasar-extras/material-icons'
+import {
+  Quasar, 
+  QBtn,
+  QLayout,
+  QLayoutHeader,
+  QLayoutDrawer,
+  QPage,
+  QPageContainer,
+  QToolbar,
+  QToolbarTitle,
+  QList,
+  QListHeader,
+  QItemSeparator,
+  QItem,
+  QItemSide,
+  QItemMain,
+} from 'quasar'
+
+Vue.use(Quasar, {
+  config: {},
+  components: {
+    QBtn,
+    QLayout,
+    QLayoutHeader,
+    QLayoutDrawer,
+    QPage,
+    QPageContainer,
+    QToolbar,
+    QToolbarTitle,
+    QList,
+    QListHeader,
+    QItemSeparator,
+    QItem,
+    QItemSide,
+    QItemMain,
+  },
+  directives: {
+  },
+  plugins: {
+  }, i18n: lang
+ })
+
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
